@@ -12,3 +12,9 @@ jobs:
         run: npm ci
       - name: Run Lint
         run: npm run lint
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build
+        run: npm run build
