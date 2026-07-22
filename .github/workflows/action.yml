@@ -49,6 +49,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: /htdocs/
           local-dir: ./dist/
-          retries: 3
-          retryDelay: 10
       
