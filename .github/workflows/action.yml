@@ -47,8 +47,8 @@ jobs:
           server: ftpupload.net
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /htdocs
-          local-dir: ./dist
+          server-dir: /htdocs/
+          local-dir: ./dist/
           retries: 3
           retryDelay: 10
       
